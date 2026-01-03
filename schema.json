@@ -1,0 +1,31 @@
+{
+    "name": "crypto_exchange",
+    "structure": {
+        "user": [
+            "username",
+            "key"
+        ],
+        "user_lot": [
+            "user_id",
+            "lot_id",
+            "quantity"
+        ],
+        "lot": [
+            "name"
+        ],
+        "pair": [
+            "first_lot_id",
+            "second_lot_id"
+        ],
+        "order": [
+            "user_id",
+            "pair_id",
+            "quantity",
+            "price",
+            "type",
+            "closed"
+        ]
+    },
+    "tuples_limit": 1000
+}
+
